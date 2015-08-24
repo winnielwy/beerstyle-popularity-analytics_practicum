@@ -1,3 +1,4 @@
+#Data cleaning
 setwd("/Users/wenyingliu/Desktop")
 untap=read.csv("practicum/untappd512/untappd_0512data.csv")
 untapp=data.frame(untap$beerstyle,untap$GEOID_Data)
